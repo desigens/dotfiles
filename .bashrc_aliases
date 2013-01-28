@@ -1,0 +1,26 @@
+# for reload use 'source .bash_profile'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# directory size
+alias du='du -sh'
+
+# vim
+alias vi="vim"
+alias :q="exit"
+
+# my dev tools
+alias aliases="cat ~/dotfiles/.bashrc_aliases"
+alias apr="sudo httpd -k restart"
+alias ngr="sudo nginx -s reload"
+alias hosts="subl /etc/hosts"
+alias vhosts="subl /etc/apache2/extra/httpd-vhosts.conf"
+alias phpini="subl /etc/php.ini"
+alias apini="subl /etc/apache2/httpd.conf"
+alias ngconf="subl /usr/local/etc/nginx/nginx.conf"
+# alias fpmr="pkill -o php-fpm"
+alias fpmstart="launchctl load -w ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist"
+alias fpmstop="launchctl unload -w ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist"

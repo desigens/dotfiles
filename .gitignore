@@ -1,0 +1,11 @@
+.DS_Store
+*node_modules*
+sftp-config.json
+*.sublime-workspace
+*.sublime-project
+
+# Локальный API
+src/Ruru/ApiBundle/Resources/config/services.yml
+
+
+stats.json
