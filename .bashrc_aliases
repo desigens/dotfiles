@@ -24,3 +24,5 @@ alias ngconf="subl /usr/local/etc/nginx/nginx.conf"
 # alias fpmr="pkill -o php-fpm"
 alias fpmstart="launchctl load -w ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist"
 alias fpmstop="launchctl unload -w ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist"
+
+alias dotfiles="subl ~/dotfiles/"
