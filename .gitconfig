@@ -1,6 +1,7 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/desigens/.gitignore
+	autocrlf = input
 [user]
 	name = Denis Denisov
 	email = desigens@gmail.com
