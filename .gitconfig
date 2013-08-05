@@ -2,6 +2,7 @@
 	quotepath = false
 	excludesfile = /Users/desigens/.gitignore
 	autocrlf = input
+	editor = /usr/bin/nano
 [user]
 	name = Denis Denisov
 	email = desigens@gmail.com
