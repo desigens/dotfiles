@@ -1,3 +1,5 @@
+# Create symliks to ~/dotfiles/
+
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 	# loads on user login
 	# for reload use 'source .bash_profile'

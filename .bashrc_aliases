@@ -26,3 +26,6 @@ alias fpmstart="launchctl load -w ~/Library/LaunchAgents/homebrew-php.josegonzal
 alias fpmstop="launchctl unload -w ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist"
 
 alias dotfiles="subl ~/dotfiles/"
+
+# ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+alias subl='sublime'
