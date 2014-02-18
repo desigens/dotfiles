@@ -6,7 +6,7 @@
 inc() { [ -s $1 ] && source $1; }
 
 # inc ./dotfiles/.bashrc_colors		# colors
-inc ./dotfiles/.bashrc_aliases		# aliases
+inc ~/dotfiles/.bashrc_aliases		# aliases
 
 export EDITOR=subl
 
@@ -26,4 +26,4 @@ export LC_CTYPE="en_US.UTF-8"
 
 PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
 
-source ./dotfiles/git-completion.bash
+source ~/dotfiles/git-completion.bash
