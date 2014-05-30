@@ -1,4 +1,4 @@
-# for reload use 'source .bash_profile'
+# for reload use 'source ~/.bash_profile'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -29,3 +29,15 @@ alias dotfiles="subl ~/dotfiles/"
 
 # ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 alias subl='sublime'
+
+alias gitbox='open /Applications/Gitbox.app'
+
+# npm install http-server -g
+alias server='http-server'
+
+#brew install ngrok
+alias tunnel='ngrok -authtoken oHW3r_ymBditjH8Lzar6 -subdomain=desigens 8080'
+
+alias ni='npm install'
+alias nid='npm install --save-dev'
+alias nig='sudo npm install -g'
