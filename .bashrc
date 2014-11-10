@@ -6,7 +6,7 @@
 inc() { [ -s $1 ] && source $1; }
 
 # inc ./dotfiles/.bashrc_colors		# colors
-inc ~/dotfiles/.bashrc_aliases		# aliases
+inc ~/dotfiles/.aliases		# aliases
 
 export EDITOR=subl
 

@@ -1,3 +1,5 @@
+# common file for bash & zsh
+
 # for reload use 'source ~/.bash_profile'
 
 # some more ls aliases
