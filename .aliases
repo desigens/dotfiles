@@ -1,6 +1,6 @@
 # common file for bash & zsh
 
-# for reload use 'source ~/.bash_profile'
+# for reload in bash use 'source ~/.bash_profile'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -43,3 +43,5 @@ alias tunnel='ngrok -authtoken oHW3r_ymBditjH8Lzar6 -subdomain=desigens 8080'
 alias ni='npm install'
 alias nid='npm install --save-dev'
 alias nig='sudo npm install -g'
+
+alias cl="clear && printf '\e[3J'"
