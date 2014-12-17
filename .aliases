@@ -1,6 +1,7 @@
 # common file for bash & zsh
 
 # for reload in bash use 'source ~/.bash_profile'
+# for reload in zsh use 'source ~/.zshrc'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -15,7 +16,7 @@ alias vi="vim"
 alias :q="exit"
 
 # my dev tools
-alias aliases="cat ~/dotfiles/.bashrc_aliases"
+alias aliases="cat ~/dotfiles/.aliases"
 alias apr="sudo httpd -k restart"
 alias ngr="sudo nginx -s reload"
 alias hosts="subl /etc/hosts"
