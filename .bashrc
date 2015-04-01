@@ -24,6 +24,8 @@ export LC_CTYPE="en_US.UTF-8"
 # colors in promt
 # https://wiki.archlinux.org/index.php/Color_Bash_Prompt
 
-PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
+# Load in the git branch prompt script.
+source ~/dotfiles/git-prompt.sh
 
-source ~/dotfiles/git-completion.bash
+# http://bashrcgenerator.com
+PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\]$(__git_ps1) \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
