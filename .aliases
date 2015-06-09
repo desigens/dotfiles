@@ -46,3 +46,6 @@ alias nid='npm install --save-dev'
 alias nig='sudo npm install -g'
 
 alias cl="clear && printf '\e[3J'"
+
+#git
+alias gf='git flow'
