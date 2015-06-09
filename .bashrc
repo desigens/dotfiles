@@ -1,5 +1,5 @@
 # loads on every new bash window
-# for reload use 'source .bashrc'
+# for reload use 'source ~/.bashrc'
 
 # echo "bashrc loaded"
 
@@ -31,3 +31,6 @@ source ~/dotfiles/.git-prompt.sh
 PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\]$(__git_ps1) \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
 
 source ~/dotfiles/git-completion.bash
+
+# for global node modules
+export NODE_PATH=/usr/local/lib/node_modules
