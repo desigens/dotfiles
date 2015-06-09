@@ -1,3 +1,5 @@
+# TODO warning ln: /home/ddenisov/.bash_profile: File exists
+
 # Create symliks to ~/dotfiles/
 
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
