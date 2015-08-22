@@ -34,3 +34,7 @@ source ~/dotfiles/git-completion.bash
 
 # for global node modules
 export NODE_PATH=/usr/local/lib/node_modules
+
+# node.js version manager
+export NVM_DIR="~/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
