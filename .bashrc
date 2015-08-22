@@ -38,3 +38,9 @@ export NODE_PATH=/usr/local/lib/node_modules
 # node.js version manager
 export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
+# Install npm packages without sudo
+# http://stackoverflow.com/questions/19352976/npm-modules-wont-install-globally-without-sudo
+# npm config set prefix '~/.npm-packages'
+export PATH="$PATH:$HOME/.npm-packages/bin"
