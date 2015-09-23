@@ -37,3 +37,7 @@
 	old = red bold 
 	new = green bold 
 	whitespace = blue reverse 
+
+[push]
+	# only current brunch will be pushed
+	default = simple
