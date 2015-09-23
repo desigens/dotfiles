@@ -1,19 +1,39 @@
-[core]
-	quotepath = false
-	excludesfile = /Users/desigens/.gitignore
-	autocrlf = input
-	editor = /usr/bin/nano
 [user]
 	name = Denis Denisov
 	email = desigens@gmail.com
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+
+[core]
+	quotepath = false
+	autocrlf = input
+	editor = vim
+	excludesfile = ~/.gitignore_global
+
+[help] 
+	autocorrect = 1
+
 [alias]
-	up = !(git add . && git stash && git pull --rebase >&2) | grep -v \"No local changes to save\" && git stash pop
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	resetsoft = reset HEAD~1 --soft 
+
 [color]
-	ui = true
+	ui = auto 
+	diff = auto 
+	status = auto 
+	branch = auto 
+	pager = true 
+
+[color "status"] 
+	added = yellow 
+	changed = green 
+	untracked = cyan 
+
+[color "branch"] 
+	current = yellow reverse 
+	local = yellow 
+	remote = green 
+
+[color "diff"] 
+	meta = yellow bold 
+	frag = magenta bold 
+	old = red bold 
+	new = green bold 
+	whitespace = blue reverse 
