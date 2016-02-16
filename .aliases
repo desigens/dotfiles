@@ -1,7 +1,6 @@
 # common file for bash & zsh
 
 # for reload in bash use 'source ~/.bash_profile'
-# for reload in zsh use 'source ~/.zshrc'
 
 # some more ls aliases
 alias ll='ls -alF'
