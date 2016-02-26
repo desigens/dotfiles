@@ -28,7 +28,7 @@ export LC_CTYPE="en_US.UTF-8"
 source ~/dotfiles/.git-prompt.sh
 
 # http://bashrcgenerator.com
-PS1='\[\e[0;32m\]\u@\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\]$(__git_ps1) \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
+PS1='\[\e[0;32m\]\u@\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\]$(__git_ps1) \[\e[1;32m\]\$\[\e[m\] '
 
 source ~/dotfiles/git-completion.bash
 
